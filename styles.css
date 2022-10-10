@@ -1,0 +1,158 @@
+body {
+    background-color: #0D192C;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    background-color: #15263F;
+    border-radius: 15px;
+    height: 596px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    border-radius: 10px;
+    position: relative;
+    margin: 24px;
+}
+
+.container img {
+    height: 302px;
+    width: 302px;
+    border-radius: 8px;
+}
+
+.container>img {
+    height: 302px;
+    width: 302px;
+    border-radius: 8px;
+}
+
+.overlay {
+    background-color: #00FFF8;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.overlay:hover {
+opacity: 0.7;
+}
+
+.overlay img {
+    height: 44px;
+    width: 44px;
+}
+
+h2 {
+    margin: 0px 24px;
+    text-align: left;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+h2:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
+
+h3 {
+    margin: 16px 24px;
+    text-align: left;
+    color: #8BACD9;
+    font-weight: 300;
+}
+
+.info-container {
+    margin: 0px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.crypto-price {
+    display: flex;
+    align-items: center;
+}
+
+.crypto-price img {
+    height: 12.43px;
+    width: 11px;
+    margin-right: 6.48px;
+}
+
+.crypto-price p {
+    color: #00FFF8;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.time-left {
+    display: flex;
+    align-items: center;
+}
+
+.time-left p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8BACD9;
+    margin-left: 7.7px;
+}
+
+hr {
+    width: 302px;
+    height: 1px;
+    margin: 0px 24px;
+    background-color: #2E405A;
+    border-width: 0px;
+}
+
+.creator-profile {
+    display: flex;
+    margin: 16px 24px 0px;
+    align-items: center;
+}
+
+.creator-profile img {
+    width: 33px;
+    height: 33px;
+}
+
+.creator-profile p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+    margin-left: 16px;
+}
+
+.creator-profile p strong {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+.creator-profile p strong:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
